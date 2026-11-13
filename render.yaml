@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: call-upload-api
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: UPLOAD_TOKEN
+        sync: false
+      - key: MAX_UPLOAD_MB
+        value: "64"

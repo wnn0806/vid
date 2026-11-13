@@ -1,0 +1,13 @@
+{
+  "name": "call-upload-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "通话录音上传与存储服务（零依赖 Node.js）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
